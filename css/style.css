@@ -1,0 +1,151 @@
+*{
+	margin: 0; padding: 0; box-sizing: border-box; font-family: arial sans-seriff;
+}
+nav .x{
+	background-color: yellow;
+	color: black;
+	padding: 2px 10px;
+}
+.active{
+	background-color: yellow;
+font-weight: 700;
+}
+
+.navbar-toggler{
+	box-shadow: 0px 0px 5px 5px white;
+} 
+
+.navbar-brand{
+	font-size: 32px;
+	font-weight: 700;
+	color: black;}
+
+.gym{
+	letter-spacing: 6px;
+}
+.rock{
+	margin-top: 74px;
+	padding: 0 0px;
+	position: relative;
+	background-color: black;
+}
+.head_img {
+	position: relative;
+}
+.main_topic{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+.main_topic h2{
+	font-size: 38px;
+	color:white;
+	font-weight: bold;
+	background-color: rgba(0,0,0,0.5);
+	word-spacing: 12px;
+	letter-spacing: 2px;
+}
+.main_topic .btn{
+	background-color: rgba(0,0,0,0.5);
+	color: white;
+	font-weight: bold;
+	font-family: calibri;
+	border-radius: 0;
+	border: 2px solid white;
+}
+.footer {
+	color: white;
+	background-color: black !important;
+}
+
+.footer i{
+	color: red;
+}
+.main_content{
+	background-color: #f5f0fa;
+}
+.our_team img{
+	border-radius:50%;
+	width: 250px;
+	height: 250px;
+	filter: grayscale(100%);
+}
+.our_team i{
+  color: red;
+}
+.our_team i:nth-child(even){
+  margin: 20px;
+}
+.our_team p{
+	font-size: 20px;
+	color: rgb(75,75,75);
+}
+.tab_group{
+	background-color: #f5f0fa;
+}
+.tab-pane{
+	background-color: white;
+}
+.tab_group li a{
+	color: rgb(75,75,75);
+	font-weight: 600;
+	font-size: 14px;
+	padding: 4px 8px;
+    
+}
+.tab_group li{
+	text-decoration: underline;
+
+}
+.tab_group .nav-link{
+	color: red;
+}
+.tab_group img{
+	width: 	100px;
+	height: 100px;
+	margin-bottom: 20px;
+}
+.tab_group h6{
+	color:  rgb(100,100,100);
+	font-size: 20px;
+	line-height: 32px;
+
+}
+
+.touch{
+	color: rgb(100,100,100);
+}
+.touch label{
+	font-size: 20px;
+}
+.touch button{
+	font-size: 14px;
+	text-transform: uppercase;
+	border: 1px solid red;
+	color: red;
+	background-color: transparent;
+}
+.touch textarea{
+	border:1px solid red;
+}
+.main_touch{
+	background-color: #f5f0fa;
+}
+.carousel a{
+   visibility: hidden;
+}
+.carousel li{
+   background-color: red;
+}
+.service h5{
+	color: rgb(100,100,100);
+	line-height: 32px;
+}
+
+@media screen and (max-width: 586px){
+	.head_img img{
+		height: 320px;
+	}
+}
