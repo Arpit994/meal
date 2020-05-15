@@ -66,6 +66,9 @@ font-weight: 700;
 .main_content{
 	background-color: #f5f0fa;
 }
+.main_content h5{
+	line-height: 32px;
+}
 .our_team img{
 	border-radius:50%;
 	width: 250px;
@@ -80,7 +83,8 @@ font-weight: 700;
 }
 .our_team p{
 	font-size: 20px;
-	color: rgb(75,75,75);
+	color: rgb(75,75,75);	
+	line-height: 32px;
 }
 .tab_group{
 	background-color: #f5f0fa;
@@ -142,6 +146,24 @@ font-weight: 700;
 .service h5{
 	color: rgb(100,100,100);
 	line-height: 32px;
+}
+.reserve label{
+	color: rgb(100,100,100);
+	font-size: 18px;
+}
+.reserve select{
+	color: rgb(100,100,100);
+	font-size: 16px;
+}
+.reserve {
+	background-color: #f5f0fa;
+}
+.reserve button{
+	color: red;
+	border:1px solid red;
+	font-size: 18px;
+	margin-top: 32px;
+	background-color: transparent;
 }
 
 @media screen and (max-width: 586px){
